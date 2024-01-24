@@ -1,5 +1,5 @@
 {
-  "name": "@taitounited/eslint-plugin-server",
+  "name": "@taito/eslint-plugin-server",
   "version": "0.0.2",
   "description": "",
   "engines": {
