@@ -2,6 +2,6 @@
 
 export const recommended = {
   rules: {
-    'taito/authorize-service-calls': 'error',
+    '@taito/server/authorize-service-calls': 'error',
   },
 };

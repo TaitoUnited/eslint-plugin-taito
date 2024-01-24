@@ -24,8 +24,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "release": "semantic-release",
-    "add-rule": "ts-node scripts/add-rule",
-    "update": "ts-node scripts/update",
+    "add-rule": "ts-node --files scripts/add-rule",
+    "update": "ts-node --files scripts/update",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {

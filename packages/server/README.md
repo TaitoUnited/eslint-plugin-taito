@@ -43,7 +43,7 @@ See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 
 | Rule ID | Description |    |
 |:--------|:------------|:--:|
-| [taito/authorize-service-calls](./docs/rules/authorize-service-calls.md) | All non-private service methods must be authorized | ⭐️ |
+| [@taito/server/authorize-service-calls](./docs/rules/authorize-service-calls.md) | All non-private service methods must be authorized | ⭐️ |
 
 <!--RULE_TABLE_END-->
 

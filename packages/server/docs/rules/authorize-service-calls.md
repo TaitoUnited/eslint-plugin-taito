@@ -1,6 +1,6 @@
-# taito/authorize-service-calls
+# @taito/server/authorize-service-calls
 > All non-private service methods must be authorized
-> - ⭐️ This rule is included in `plugin:taito/recommended` preset.
+> - ⭐️ This rule is included in `plugin:@taito/server/recommended` preset.
 
 (TODO: why is this rule useful?)
 
@@ -11,7 +11,6 @@
 ## Options
 
 (TODO: what do options exist?)
-
 
 ## Implementation
 
