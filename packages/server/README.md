@@ -19,18 +19,22 @@ $ npm install --save-dev eslint
 
 Write your config file such as `.eslintrc.yml`.
 
-```yml
-plugins:
-  - xxxx
-rules:
-  xxxx/example-rule: error
+```json
+{
+  "plugins": [
+    "@taito/eslint-plugin-server"
+  ],
+  "extends": [
+    "plugin:@taito/eslint-plugin-server/recommended"
+  ]
+}
 ```
 
 See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 
 ## Configs
 
-- `xxxx/recommended` ... enables the recommended rules.
+- `@taito/eslint-plugin-server/recommended` ... enables the recommended rules.
 
 ## Rules
 
