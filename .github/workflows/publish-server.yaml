@@ -17,8 +17,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20.x'
+      - run: npm ci && npm run build
       - run: echo "registry=https://npm.pkg.github.com" >> .npmrc
-      - run: npm install && npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
