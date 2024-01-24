@@ -18,10 +18,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-          registry-url: 'https://npm.pkg.github.com'
       - run: cat ../../.npmrc
       - run: cat ../../.npmrc >> .npmrc
       - run: npm ci && npm run build
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          registry: "https://npm.pkg.github.com"
