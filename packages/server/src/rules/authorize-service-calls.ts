@@ -1,4 +1,3 @@
-import * as ts from 'typescript';
 import { ESLintUtils } from '@typescript-eslint/utils';
 import { TSESTree } from '@typescript-eslint/typescript-estree';
 
@@ -69,7 +68,7 @@ const rule = createRule<
 
         const tokens = ctx.sourceCode.getTokens(node, {
           includeComments: false,
-        });
+        }) as TSESTree.Token[];
 
         const nodes = tokens.map((token) =>
           ctx.sourceCode.getNodeByRangeIndex(token.range[0])

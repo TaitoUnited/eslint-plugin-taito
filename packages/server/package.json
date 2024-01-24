@@ -5,9 +5,9 @@
   "engines": {
     "node": ">=8.10.0"
   },
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "files": [
-    "src"
+    "dist"
   ],
   "scripts": {
     "clean": "rimraf dist",
