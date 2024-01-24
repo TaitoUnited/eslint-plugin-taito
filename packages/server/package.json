@@ -62,7 +62,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/???/eslint-plugin-xxxx.git"
+    "url": "git+https://github.com/TaitoUnited/eslint-plugin-taito.git"
   },
   "keywords": [
     "typescript",
